@@ -4,3 +4,28 @@
 **
 ****************************/
 
+.main {
+    display: flex;
+}
+
+.main__left {
+    background: #cccccc url('../../img/rectangle/Rectangle2.png') top no-repeat;
+    background-size: 600px 800px;
+    width: 600px; 
+    height: 800px;
+    background-position:100% 100%;
+
+}
+
+.main__right {
+    display: flex;
+    flex-direction: column;
+}
+
+.main__right-top {
+
+}
+
+.main__right-bottom {
+    
+}
