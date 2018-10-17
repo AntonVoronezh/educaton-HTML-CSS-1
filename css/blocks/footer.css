@@ -1,0 +1,36 @@
+/****************************
+**
+**       AntonVoronezh
+**
+****************************/
+
+.footer {
+    display: flex;
+     /* justify-content: flex-start; */
+}
+
+.footer__left {
+    background: url('../../img/rectangle/Rectangle5.png') top no-repeat;
+    /* background-size: 760px 400px; */
+    background-position: 0% 0%;
+    width: 450px;
+    height: 715px;
+    
+}
+.footer__right {
+    background: url('../../img/rectangle/Rectangle6.png')  top no-repeat;
+    background-position: 0% 0%;
+    width: 910px;
+    filter: grayscale(100%);
+}
+
+.img--decor-footer {
+    margin-top: 300px;
+    width: 100px;
+    height: 100px;
+}
+
+.title--footer {
+    color: #ffffff;
+    margin: 20px;
+}

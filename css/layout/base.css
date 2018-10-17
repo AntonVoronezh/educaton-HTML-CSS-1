@@ -14,21 +14,20 @@ body {
 }
 
 .wrapper {
-    min-width: 1360px;
-    overflow: auto;
+    min-width: 1350px;
+    /* overflow: auto; */
     display: flex;
     flex-direction: column;
     height: 100%;
 }
 
 .wrapper__content {
-    flex: 1;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
 }
 
 .container {
-    width: 1360px;
+    width: 1350px;
     margin: 0 auto;
     /* border: 1px solid #cccccc; */
 }
