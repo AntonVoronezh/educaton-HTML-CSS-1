@@ -34,3 +34,32 @@
     color: #ffffff;
     margin: 20px;
 }
+
+.comment-form__top {
+    color: #ffffff;
+}
+.comment-form__text {
+    padding: 10px;
+    margin-right: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 290px;
+    height: 50px;
+    background-color: transparent;
+}
+
+.comment-form__textarea {
+    margin-top: 30px;
+    padding: 10px;
+    color: #ffffff;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    width: 600px;
+    height: 200px;
+    background-color: transparent;
+}
+
+::placeholder {
+    color: #ffffff;
+}
