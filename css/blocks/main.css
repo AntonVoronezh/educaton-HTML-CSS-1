@@ -11,10 +11,9 @@
 .main__left {
     background: #cccccc url('../../img/rectangle/Rectangle2.png') top no-repeat;
     background-size: 600px 800px;
-    width: 600px; 
+    background-position: 100% 100%;
+    width: 600px;
     height: 800px;
-    background-position:100% 100%;
-
 }
 
 .main__right {
@@ -23,9 +22,27 @@
 }
 
 .main__right-top {
-
+    flex: 1;
+    background: #cccccc url('../../img/rectangle/Rectangle3.png') top no-repeat;
+    background-size: 760px 400px;
+    background-position: 100% 100%;
+    width: 740px;
 }
 
 .main__right-bottom {
-    
+    flex: 1;
+    background: #cccccc url('../../img/rectangle/Rectangle4.png') top no-repeat;
+    background-size: 760px 400px;
+    background-position: 100% 100%;
+}
+
+.main__left-wrap {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+.main__left-section {
+    color: #ffffff;
+    line-height: 1.3;
 }
